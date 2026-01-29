@@ -1,22 +1,24 @@
 <html>
-		
-<script type="text/javascript">
-(function() {
-  var s = document.createElement("script");
-  s.src = "https://profitsolv1.my.site.com/embeddedservice/asyncclient.js";
-  s.onload = function() {
-    embeddedservice_bootstrap.init(
-      "00D5f000005uUOr",                  // Org ID
-      "Rocket_Matter_Live_Chat_Enhanced", // Messaging deployment name
-      "https://profitsolv1.my.site.com",  // Base URL
-      {
-         scrt2URL: "https://profitsolv1.my.salesforce-scrt.com"
-      }
-    );
-  };
-  document.body.appendChild(s);
-})();
-</script>
+	<body>
+  <h1>Chat Test</h1>
+
+  <script type="text/javascript">
+    (function() {
+      var s = document.createElement('script');
+      s.src = 'https://profitsolv1.my.site.com/embeddedservice/asyncclient.js';
+      s.onload = function() {
+        embeddedservice_bootstrap.init(
+          '00D5f000005uUOr',
+          'Rocket_Matter_Live_Chat_Enhanced',
+          'https://profitsolv1.my.site.com',
+          { scrt2URL: 'https://profitsolv1.my.salesforce-scrt.com' }
+        );
+      };
+      document.body.appendChild(s);
+    })();
+  </script>
+</body>
+
 
 
 
